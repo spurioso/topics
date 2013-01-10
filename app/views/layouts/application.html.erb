@@ -13,9 +13,10 @@
 		<h1>Which is the Best Meal?</h1>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/topics/new">Nominate a Meal</a></li>
-				<li><a href="/about.html">About</a></li>
+				<li><%= link_to 'Home', root_path %></li>
+				<li><%= link_to 'List of Meals', topics_path %></li>
+				<li><%= link_to 'Nominate a meal', new_topic_path %></li>
+				<li><%= link_to 'About', pages_about_path %></li>
 			</ul>
 		</nav>
 	</header>
@@ -23,6 +24,14 @@
 	<div><%= msg %></div>
 <% end %>
 <%= yield %>
+	<footer>
+		<p>Footer</p>
+		<ul>			
+			<%-# Need to fix the size of the Twitter icon -%> 
+			<li><%= link_to image_tag('https://twitter.com/images/resources/twitter-bird-blue-on-white.png'), 'https://twitter.com/SHHHenry' %> </li>
+			
+		</ul>
+	</footer>
 
 </body>
 </html>
