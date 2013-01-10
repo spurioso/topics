@@ -65,6 +65,10 @@ table {
 	width: 100%;
 }
 
+footer li {
+	display: inline;
+}
+
 thead th {
 	border-bottom: 2px solid #ccc;
 	text-align: left;
