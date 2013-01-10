@@ -33,9 +33,12 @@ h1 {
 }
 
 header {
-	background-color: #1E4757;
+	background-color: #1E4757;	
 	color: #fff;
 	padding: 20px;
+	background-image: url(tvDinnerSmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header h1 {
