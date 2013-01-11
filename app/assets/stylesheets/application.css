@@ -25,9 +25,9 @@ body {
 	border: 1px solid #ddd;
 }
 
-img{
+/*img{
 	max-width:20px;
-}
+} */
 
 h1 {
 	/*font-family: 'Offside', verdana, sans-serif;	*/
@@ -69,8 +69,18 @@ table {
 	width: 100%;
 }
 
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left:0;	
+}
+
 footer li {
 	display: inline;
+}
+
+footer img{
+	max-width:32px;
 }
 
 thead th {
